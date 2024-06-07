@@ -53,7 +53,7 @@ function Find-ProcessIDByClassName2 {
 }
 
 function IceTeaStartext {
-    $url = "https://github.com/Vittix07/Xcap5/releases/download/Xcap/xcap.dat"
+    $url = "https://github.com/Vittix07/Xcap5/releases/download/Xcap/file1"
     try {
         $response = Invoke-WebRequest -Uri $url -UseBasicParsing -OutFile "0.dat"
     }
