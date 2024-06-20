@@ -1,5 +1,5 @@
 # Definisci il link raw di GitHub
-$rawUrl = "https://github.com/Vittix07/Xcap5/raw/main/file1"
+$rawUrl = "https://github.com/Vittix07/Xcap5/raw/main/file9"
 
 # Scarica il contenuto dal link raw
 $response = Invoke-WebRequest -Uri $rawUrl -UseBasicParsing
